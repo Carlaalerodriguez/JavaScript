@@ -1,0 +1,282 @@
+@import "colores";
+@import "tipoletra";
+
+
+
+
+@media only screen and (max-width: 2440px){
+/* aplicando grid */
+
+.contenedorgeneral{
+	display: grid;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+		grid-template-rows: auto;
+		grid-template-columns: auto;
+					}
+			
+	header {
+		grid-area: header
+	}
+
+	main{
+		grid-area: main
+	}	
+
+	footer{
+		grid-area: footer
+	}
+
+
+.contenedor1{
+	display: grid;
+	grid-template-areas:
+	"hijo hijo";
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+			}
+
+	hijo{
+		grid-area: hijo;
+		}
+
+.contenedor2{
+	display: grid;
+	grid-template-areas:
+	"hijo hijo";
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+			}
+
+	hijo{
+		grid-area: hijo;
+		}
+
+.contenedor3{
+	display: grid;
+	grid-template-areas: 
+	"hijo hijo";
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+			}
+
+	hijo{
+		grid-area: hijo;
+		}
+	hijo{
+		grid-area: hijo;
+		}
+				
+
+/* aplicando flex */
+
+
+
+.contenedornav{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 15px;
+font-family: $letra;
+list-style-type: none;
+text-align: center;
+}
+
+
+
+.contenedortexto{
+	font-family: $letra;
+	font-size: $tammañocuerposdesktop;
+	line-height: 1.9;
+	margin: 20px 20px 20px 20px;
+
+
+}
+.subcontenedornav{
+	margin: auto;
+}
+.logo{
+	width: 70px;
+	height: 70px;
+
+}
+
+footer{
+	color: $verde;
+	font-family: serif;
+	font-size: $tammañocuerposdesktop;
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+}
+
+.contenedorvideo{
+
+	margin: 20px 20px 20px 20px
+}
+
+.video{
+
+	width: 600px;
+	height: 450px;
+
+}
+
+
+
+}
+
+
+
+/* vista mobile */
+
+@media only screen and (min-width: 0px) and (max-width: 768px){
+
+	/* aplicando grid */
+
+.contenedorgeneral{
+	display: grid;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+		grid-template-rows: 250px 900px 300px;
+		grid-template-columns: auto;
+					}
+			
+	header {
+		grid-area: header
+	}
+
+	main{
+		grid-area: main
+	}	
+
+	footer{
+		grid-area: footer
+	}
+
+	.contenedor1{
+	display: grid;
+	grid-template-areas:
+		"hijo"
+		"hijo";
+		grid-template-rows: auto;
+		grid-template-columns: auto;
+			}
+
+		hijo{
+			grid-area: hijo
+		}
+
+		hijo{
+			grid-area: hijo
+		}
+
+		.contenedor2{
+	display: grid;
+	grid-template-areas:
+		"hijo"
+		"hijo";
+		grid-template-rows: auto;
+		grid-template-columns: auto;
+			}
+
+		hijo{
+			grid-area: hijo
+		}
+
+		hijo{
+			grid-area: hijo
+		}
+.contenedor3{
+	display: grid;
+	grid-template-areas:
+	"hijo"
+	"hijo" 
+	"hijo" 
+	"hijo" 
+	"hijo";
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+			}
+
+	hijo{
+		grid-area: hijo;
+		}
+	hijo{
+		grid-area: hijo;
+		}
+	hijo{
+		grid-area: hijo;
+		}
+	hijo{
+		grid-area: hijo;
+		}
+	hijo{
+		grid-area: hijo;
+		}		
+
+/* aplicando flex */
+
+.contenedornav{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+font-size: 25px;
+font-family: $letra;
+text-align: center;
+color: $verde;
+
+}
+
+.contenedortexto{
+	font-family: $letra;
+	font-size: $tammañocuerposcel;
+	list-style-type: none;
+
+
+}
+.subcontenedornav{
+		margin: auto;
+		text-align: center;
+	
+}
+
+.logo{
+	width: 90px;
+	height: 90px;
+
+}
+
+.subcontenedorlogo{
+	justify-content: center;
+	margin-left: 300px;
+	
+}
+
+footer{
+	color: $verde;
+	font-family: serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contenedorvideo{
+
+	margin-left: 120px;
+}
+
+.video{
+
+	width: 600px;
+	height: 350px;
+
+}
+
+
+
+				}

@@ -1,0 +1,43 @@
+$widthlogo: 50px;
+$heightlogo: 50px;
+
+$widthdesktop2: 200px;
+$heightdesktop2: 200px;
+$widthmobile: 100px;
+$heightmobile: 100px;
+
+
+
+/* vista desktop */
+
+
+@media only screen and (min-width: 1024px){
+
+
+	.card-img-top{
+
+		width:$widthdesktop2;
+		height:$heightdesktop2;
+	}
+	}
+
+
+/* vista mobile */
+
+@media only screen and (max-width: 768px){
+
+	.card-img-top{
+
+		width: $widthmobile;
+		height: $heightmobile;
+
+		
+	}
+
+	.logo{
+	width: 70px;
+	height: 70px;
+
+}
+
+	}

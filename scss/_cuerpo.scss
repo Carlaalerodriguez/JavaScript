@@ -1,0 +1,41 @@
+@import "colores";
+
+$ptop:40px;
+
+@media only screen and (min-width: 1023px){
+
+.cuerpoquienessomos{
+
+					background-color: $negro;
+					padding: $ptop
+				}
+
+					
+.detalle{
+				h1{
+						color: $blanco;
+						padding: $ptop;
+						text-align: center;
+					}
+
+					p{
+						color: $blanco;
+						padding: $ptop;
+						text-align: justify;
+					}
+
+				}
+}
+					
+
+
+
+.texto-quienessomos2{
+	padding: $ptop;
+	width: 700px;
+	height: 500px;
+	margin-left: 350px;
+	border-color: $negro;
+
+
+}

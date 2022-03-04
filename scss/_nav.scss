@@ -1,0 +1,51 @@
+@import "colores";
+
+	$letras:serif;
+	$tamaño:20px;
+	$ptop:10px;
+	
+
+
+
+li{
+  		padding: $ptop;
+
+				
+			a {
+					margin: $tamaño;
+					color: $verde; 
+					text-decoration: none;
+
+			&:hover {
+				background-color: $gris;
+					}
+		
+				}
+	}
+
+.navbar{
+	margin: 20px;
+	font-size: 20px;
+	background-color: $negro;
+	justify-content: center;
+
+
+}	
+
+
+
+.logo{
+	padding: $ptop;
+	justify-content: center;
+	margin-left: 100px;
+	margin-top:50px;
+	}
+.contenedorlogo{
+
+	width: 200px;
+	height: 100px;
+
+}
+
+	
+
