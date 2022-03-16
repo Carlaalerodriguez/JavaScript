@@ -1,59 +1,57 @@
 
-/* aplicando funcion */
-
-let si= prompt ("¿Quiere Iniciar su Compra?")
-
-alert ("Inicie su Compra" + si)
 
 
-/* declarando variable y aplicando sumatoria */
-
-let precioSemaforo1 = 120000;
-let precioSemaforo2 = 100000;
-let precioSemaforo3 = 150000;
-let precioSemáforo4 = 200000;
-let precioLuminariaA = 200000;
-let precioLuminariaB = 250000;
-let precioFarola1 = 150000;
-let precioFarola2 = 100000;
-let precioColumna1 = 100000;
-let precioColumna2 = 150000;
-let precioColumna3 = 170000;
-
-let preciosProductos = precioSemaforo1 + precioSemaforo2 + precioSemaforo3 + precioSemáforo4 + precioLuminariaA + precioLuminariaB + precioFarola1 + precioFarola2 + precioColumna1 + precioColumna2 + precioColumna3
-
-console.log (preciosProductos)
-
-
-/* flujos , ciclos y variables  */
-
-let cantidadStockFarola1= 10;
-let cantidadStockFarola2= 150;
-
-
-
-function sumar (cantidadStockFarola1, cantidadStockFarola2) { 
-    return cantidadStockFarola1 + cantidadStockFarola2
-}
-console.log(sumar(cantidadStockFarola1, cantidadStockFarola2))
-
-
-if (cantidadStockFarola1 < 20) {
-    
-    console.log ("se debe reponer stock")
+const objetos={
+    Titulo: 'Tipologia',
+    Producto: 'Semaforo',
+    Precio: 8000000,
 }
 
+agregaralcarrito (objetos);
 
-for (let cantidadStockFarola2=0; cantidadStockFarola2 <5; cantidadStockFarola2++) {
- console.log ("Su pedido sera derivado al area de ventas y se contactaran con usted")
+function agregaralcarrito (productos){
+
+    const textoAMostrar= `Agregaste a tu carrito una ${productos.Titulo} de ${productos.Producto} a ${productos.Precio}`;
+    console.log(textoAMostrar);
 }
 
-let i= "Codigo 128"
+/* ver con bruno */ 
 
+function Stock (producto, cantidad){
 
-for (let i = 0; i <= 10; i++) {
-    
-    if (i===0) {
-        console.log (`Tipologia en produccion ya que el stock es ${i}`);
-    }
+    this.producto= producto;
+    this.cantidad= cantidad;
+
 }
+
+const STOCK= new Stock ('Semaforo', 100)
+
+console.log(STOCK);
+
+
+
+
+
+/*recorriendo arrays*/
+
+const tipologiaSemaforos = ['lateral', 'no vidente', '3d', 'conico']
+
+for(let i=0; i< tipologiaSemaforos.length; i++){
+    console.log (tipologiaSemaforos[i]);
+}
+
+/*busqueda y filtrado */
+
+
+const producto = [
+    {nombre: 'semaforo', precio: 25000},
+    {nombre: 'columna', precio: 882000},
+    {nombre: 'farola', precio: 225000},
+  
+]
+
+const resultado = producto.filter((el) => el.nombre.includes('semaforo'))
+const resultado2 = producto.filter((el) => el.precio > 1000)
+
+console.log(resultado)
+console.log(resultado2) // []
