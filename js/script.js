@@ -20,7 +20,12 @@ const agregarAlCarrito = (idproductos) => {
      //* actualizando  storage del carrito *//
     localStorage.setItem ("carrito", JSON.stringify(carrito));
     document.getElementById("cantidad-prod").innerHTML = carrito.length
-    
+    swal({
+        title: "Carrito",
+        text: "El producto se agregó exitosamente!",
+        icon: "success",
+        button: "Continuar Comprando",
+    })
 
     
 };
@@ -64,4 +69,5 @@ function generarCards(productosAMostrar){
 
 
 function mostrarCards(acumuladorDeCards){
-    document.getElementById ("Listado-productos").innerHTML = acumuladorDeCards}
+    document.getElementById ("Listado-productos").innerHTML = acumuladorDeCards
+}
