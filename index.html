@@ -35,13 +35,11 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit">
+                        <button id="btnCarrito" onclick="verCarrito()" class="btn btn-outline-dark" type="submit">
                             <i class="bi-cart-fill me-1"></i>
                             Cart
                             <span class="badge bg-dark text-white ms-1 rounded-pill" id="cantidad-prod">0</span>
                         </button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -51,6 +49,31 @@
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Shop in style</h1>
                     <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
+            </div>
+            <div id="divCarrito" class="col-lg-4 col-12 container-fluid " style="display:none">
+                <h3 class="m-auto text-center text-white ms-1">Carrito</h3>
+                <table class="table text-white ms-1">
+                    <thead>
+                        <tr>
+                            <th scope="col text-white ms-1">Producto</th>
+                            <th scope="col text-white ms-1">Precio</th>
+                            <th scope="col text-white ms-1">SubTotal</th>
+                            <th scope="col text-white ms-1">Quitar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contenedorCarrito">
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td id="totalCarrito" class="text-white ms-1" colspan="2">0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="d-flex justify-content-around">
+                    <button onclick="confirmarCompra()" class="btn btn-primary">Confirmar</button>
+                    <button onclick="eliminarCarrito()" class="btn btn-danger">Limpiar Carrito</button>
                 </div>
             </div>
         </header>

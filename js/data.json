@@ -4,64 +4,73 @@
           "id":1,
           "Titulo":"Semáfros",
           "Artefacto":"Semáforo 3 cabezales x 200",
-          "Precio":"$200000",
-          "Imagen":"https://ss-static-01.esmsv.com/id/106234/productos/obtenerimagen/?id=217&useDensity=true&width=1440&height=711&tipoEscala=contain"
+          "Precio":200000,
+          "Imagen":"https://ss-static-01.esmsv.com/id/106234/productos/obtenerimagen/?id=217&useDensity=true&width=1440&height=711&tipoEscala=contain",
+          "Cantidad": "1"
        },
        {
           "id":2,
           "Titulo":"Semáfros",
           "Artefacto":"Semáforo 2 cabezales x 200",
-          "Precio":"$100000",
-          "Imagen":"https://www.acordgroup.com/wp-content/uploads/2018/07/cabezal-semaforo-doble.jpg"
+          "Precio":"100000",
+          "Imagen":"https://www.acordgroup.com/wp-content/uploads/2018/07/cabezal-semaforo-doble.jpg",
+          "Cantidad": "1"
        },
        {
           "id":3,
           "Titulo":"Semáfros",
           "Artefacto":"Semáforo 300 +2 cabezales x 200 mm",
-          "Precio":"$4500000",
-          "Imagen":"https://www.acordgroup.com/wp-content/uploads/2018/07/optica-peatonal.jpg"
+          "Precio":"4500",
+          "Imagen":"https://www.acordgroup.com/wp-content/uploads/2018/07/optica-peatonal.jpg",
+          "Cantidad": "1"
        },
        {
           "id":4,
           "Titulo":"Semáfros",
           "Artefacto":"Semáforo 3 cabezales x 200",
-          "Precio":"$800000",
-          "Imagen":"https://www.acordgroup.com/wp-content/uploads/2018/07/cabezal-flecha-2.jpg"
+          "Precio":"800000",
+          "Imagen":"https://www.acordgroup.com/wp-content/uploads/2018/07/cabezal-flecha-2.jpg",
+          "Cantidad": "1"
        },
        {
           "id":5,
           "Titulo":"Farolas",
           "Artefacto":"Farola 440",
-          "Precio":"$900000",
-          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/9500-2.jpg"
+          "Precio":"900000",
+          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/9500-2.jpg",
+          "Cantidad": "1"
        },
        {
           "id":6,
           "Titulo":"Farolas",
           "Artefacto":"Farola Stadia",
-          "Precio":"$100000",
-          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/9500-2.jpg"
+          "Precio":"100000",
+          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/9500-2.jpg",
+          "Cantidad": "1"
        },
        {
           "id":7,
           "Titulo":"Columnas",
           "Artefacto":"Columna 620",
-          "Precio":"$100000",
-          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/4600-2-columna-T.jpg"
+          "Precio":"100000",
+          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/4600-2-columna-T.jpg",
+          "Cantidad": "1"
        },
        {
           "id":8,
           "Titulo":"Columnas",
           "Artefacto":"Columna 750",
-          "Precio":"$90000",
-          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/4600-2-columna-T.jpg"
+          "Precio":"90000",
+          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/4600-2-columna-T.jpg",
+          "Cantidad": "1"
        },
        {
           "id":9,
           "Titulo":"Columnas",
           "Artefacto":"Columna 428",
-          "Precio":"$50000",
-          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/4600-2-columna-T.jpg"
+          "Precio":"50000",
+          "Imagen":"https://www.fwiluminacionsrl.com.ar/img/productos/grandes/4600-2-columna-T.jpg",
+          "Cantidad": "1"
        }
     ]
  }
